@@ -33,6 +33,7 @@ director_index = {}
   end
   director_index[nds[row_index][:name]] = director_total
    row_index += 1
+   director_total = 0 
 end
 return director_index
   
