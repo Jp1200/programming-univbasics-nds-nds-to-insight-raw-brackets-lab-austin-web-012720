@@ -19,6 +19,9 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   row_index = 0 
+  def get_hash_by_name(dirname)
+    
+end
   while row_index < nds.length do 
     pp nds[row_index]
     row_index += 1 
