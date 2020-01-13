@@ -19,13 +19,15 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   row_index = 0 
-  #def get_hash_by_name(dirname)
+  def get_hash_by_name()
     
 end
 directors_totals = 0 
+director_index = []
   while row_index < nds.length do 
-    pp nds[row_index]
-    nds[row_index][:name] =>
+    
+    directors_totals += nds[row_index][:movies][:worldwide_gross]
+    director_index <<
     row_index += 1 
 end
   
