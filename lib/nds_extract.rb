@@ -26,7 +26,7 @@ director_total = 0
 director_index = {}
   while row_index < nds.length do 
     column_index = 0 
-    
+    director_index << {
     while column_index <  nds[row_index][:movies].length do 
     director_total += nds[row_index][:movies][column_index][:worldwide_gross]
     director_index <<
