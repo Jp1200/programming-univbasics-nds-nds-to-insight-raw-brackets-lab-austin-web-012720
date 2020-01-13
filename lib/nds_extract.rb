@@ -19,7 +19,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   row_index = 0 
-  def get_hash_by_name(dirname)
+  #def get_hash_by_name(dirname)
     
 end
 directors_totals = 0 
