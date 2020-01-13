@@ -22,9 +22,10 @@ def directors_totals(nds)
   def get_hash_by_name(dirname)
     
 end
+directors_totals = 0 
   while row_index < nds.length do 
     pp nds[row_index]
-    
+    nds[row_index][:name] =>
     row_index += 1 
 end
   
