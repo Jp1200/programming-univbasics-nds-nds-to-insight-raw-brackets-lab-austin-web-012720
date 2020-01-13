@@ -29,9 +29,10 @@ director_index = {}
     
     while column_index <  nds[row_index][:movies].length do 
     director_total += nds[row_index][:movies][column_index][:worldwide_gross]
-    
-    row_index += 1 
+    column_index += 1 
   end
+  puts "#{nds[row_index][:name]} total is #{director_total}"
+   row_index += 1
 end
   
   
