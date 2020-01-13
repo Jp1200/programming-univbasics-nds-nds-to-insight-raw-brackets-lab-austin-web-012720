@@ -31,9 +31,10 @@ director_index = {}
     director_total += nds[row_index][:movies][column_index][:worldwide_gross]
     column_index += 1 
   end
-  puts "#{nds[row_index][:name]} total is #{director_total}"
+  director_index[nds[row_index][:name]] = director_total
    row_index += 1
 end
+return director_index
   
   
   
